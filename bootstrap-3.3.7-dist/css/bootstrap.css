@@ -11,8 +11,23 @@ html {
 }
 body {
   margin: 0;
-    
+}
 
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+}
+
+
+h3 {
+margin-bottom: -20px;
+margin-top: -20px;
 }
 .redtext {
   color: #E32636;
@@ -1299,11 +1314,13 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 30px;
+  color: black;
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 30px;
+  color: white;
 }
 h6,
 .h6 {
