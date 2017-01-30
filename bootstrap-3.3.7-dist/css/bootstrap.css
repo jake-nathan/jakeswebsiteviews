@@ -12,11 +12,122 @@ html {
 body {
   margin: 0;
 }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.phonebanner {
+  background-color: #00cc66;
+}
+.emailbanner {
+  background-color: #e36426;
+}
+.websitebanner {
+  background-color: #660198;
+}
+.linkedinbanner {
+  background-color: #0274b3;
+}
+.facebookbanner {
+  background-color: #3b5998;
+}
+.twitterbanner {
+  background-color: #00aced;
+}
+.snapchatbanner {
+  background-color: #fffc00;
+}
+.instagrambanner {
+  background-color: #ef3178;
+}
+
+
+.phonebanner img {
+  margin-top: 8%;
+
+}
+.emailbanner img {
+  margin-top: 8%;
+
+}
+
+.websitebanner img {
+  margin-top: 8%;
+
+}
+.linkedinbanner img {
+  margin-top: 8%;
+
+}
+.facebookbanner img {
+  margin-top: 8%;
+
+}
+.twitterbanner img {
+  margin-top: 8%;
+
+}
+.snapchatbanner img {
+  margin-top: 8%;
+
+}
+.instagrambanner img {
+  margin-top: 8%;
+
+}
+
+.websitebanner h3 {
+  margin-left: -20%;
+}
+.phonebanner h3 {
+  margin-left: -20%;
+}
+
+.emailbanner h3 {
+  margin-left: -20%;
+}
+.linkedinbanner h3 {
+  margin-left: -20%;
+}
+.facebookbanner h3 {
+  margin-left: -20%;
+}
+.twitterbanner h3 {
+  margin-left: -20%;
+}
+.snapchatbanner h3 {
+  margin-left: -20%;
+  color: black;
+}
+.instagrambanner h3 {
+  margin-left: -20%;
+}
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
 
 .thumbnail {
     position: relative;
 }
+.jakealign {
+text-align: left;
+}
 
+.infotext {
+  color: white;
+  font-size: 20px;
+  vertical-align: middle;
+}
 .caption {
     position: absolute;
     top: 10%;
@@ -25,10 +136,7 @@ body {
 }
 
 
-h3 {
-margin-bottom: -20px;
-margin-top: -20px;
-}
+
 .redtext {
   color: #E32636;
 }
@@ -1310,7 +1418,9 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 28px;
+  color: white;
+  text-align: left;
 }
 h4,
 .h4 {
